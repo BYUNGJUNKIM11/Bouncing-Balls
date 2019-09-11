@@ -1,0 +1,44 @@
+Authors: BJ Kim, William Su
+
+Application:
+	If you press Run on Controller.java, the application that gets started
+	is a frame where you can create different kind of bouncing balls on 
+	the screen.
+	
+Direction:
+	Use the drag down menu to choose the kind of ball you want to create
+	and hit "Make Ball" to make them. There are in total 4 kinds of balls.
+	They are: 
+		- Straight 
+			- Goes in straight directions and bounces normally.
+		- ColorBreathing
+			- Goes in straight directions, bounces normally. However the 
+			  color and the size of the radius changes every time the frame
+			  updates.
+		- Trippy
+			- Goes in a circular motion, bounces normally. However, the
+			  color and size of the radius changes every time the frame
+			  updates.
+		- VelChange
+		 	- Goes in straight directions, but every time it bounces off
+		 	  a wall, the velocity either slows down or gets faster.
+	
+	If you use "Random", then any of the four balls above could show up.
+	You can also choose to type directly into the text field instead of 
+	using the drag down. However, note that if the names of the balls
+	are not spelled exactly like they are in the drag down, an ErrorBall
+	instance will be created and it will not display on the canvas.
+	
+	To clear all the balls that are on the screen, simply press the button
+	"Clear All!".
+	
+	Also, feel free to resize the window frame. The balls do adjust accordingly
+	to the frame.
+	
+Dispatcher:
+	In terms of the dispatcher, we've tried both the Sequential one and the
+	Parallel one. We understand that the Parallel one most likely updates
+	the sprites (which in this case are the ball instances) faster than the
+	Sequential one. However, when we compared and ran our actual application 
+	using each of the two dispatchers, we do not see any actual big differences  
+	between the two.
