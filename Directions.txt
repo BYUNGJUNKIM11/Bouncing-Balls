@@ -1,4 +1,4 @@
-Authors: BJ Kim, William Su
+Authors: BJ Kim
 
 Application:
 	If you press Run on Controller.java, the application that gets started
@@ -34,11 +34,3 @@ Direction:
 	
 	Also, feel free to resize the window frame. The balls do adjust accordingly
 	to the frame.
-	
-Dispatcher:
-	In terms of the dispatcher, we've tried both the Sequential one and the
-	Parallel one. We understand that the Parallel one most likely updates
-	the sprites (which in this case are the ball instances) faster than the
-	Sequential one. However, when we compared and ran our actual application 
-	using each of the two dispatchers, we do not see any actual big differences  
-	between the two.
